@@ -11,6 +11,7 @@ public class MethodCollector {
         System.out.println("Method " + methodCounter + ":" );
         aFirstMethod();
         methodCounter++;
+        VNderBeste();
 // hier kann die nächste Methode folgen.
     }
 
@@ -18,6 +19,8 @@ public class MethodCollector {
     private static void aFirstMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
     }
+    private static void VNderBeste() {
+        System.out.println("MethodCollector.aFirstMethod: This method has been created by Vadim ");
 
-
+    }
 }
