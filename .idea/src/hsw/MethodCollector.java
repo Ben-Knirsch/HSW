@@ -12,6 +12,9 @@ public class MethodCollector {
         aFirstMethod();
         methodCounter++;
 // hier kann die nächste Methode folgen.
+
+        aMsNonchalantMethod();
+        methodCounter++;
     }
 
 
@@ -19,5 +22,9 @@ public class MethodCollector {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
     }
 
-
+    public static void aMsNonchalantMethod() {
+        System.out.println("╔═══════════════════════════════╗");
+        System.out.println("║     Method by MsNonchalant    ║");
+        System.out.println("╚═══════════════════════════════╝");
+    }
 }
