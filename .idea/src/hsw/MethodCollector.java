@@ -28,6 +28,8 @@ public class MethodCollector {
         ausgabe();
         aHeisobtMethod();
         methodCounter++;
+        aNicoMethod();
+        methodCounter++;
         henrysMethod();
     }
 
@@ -70,5 +72,8 @@ public class MethodCollector {
     }   
     private static void aLastMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by BenH@sstEMails");
+    }
+    private static void aNicoMethod() {
+        System.out.println("MethodCollector.aFirstMethod: This method has been created by Nico");
     }
 }
